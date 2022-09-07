@@ -101,11 +101,6 @@ public class HotelServiceImpl extends ServiceImpl<HotelMapper, Hotel> implements
         }
     }
 
-    /**
-     * 获取补全信息
-     * @param prefix
-     * @return
-     */
     @Override
     public List<String> getSuggestions(String prefix) {
         try {
